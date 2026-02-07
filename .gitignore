@@ -2,14 +2,21 @@
 .DS_Store
 Thumbs.db
 
-# 忽略VSCode
+# 忽略IDE文件
 .vscode/
+.idea/
 
 # 构建输出目录
 dist/
 build/
 bin/
 obj/
+
+# Go
+bin/
+*.exe
+*.test
+
 
 # 日志文件
 *.log
